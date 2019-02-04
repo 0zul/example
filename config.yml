@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Looney Services Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -110,6 +110,12 @@ params:
       description: The guts of the application.
     - name: Media Proxy
       description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Main Website
+      description: Main Website (https://looney.gq).
+    - name: Cloudflare
+      description: Cloudflare is our DDOS protection service.
+    - name: Discord Bot Console
+      description: https://dbotconsole.looney.gq
 
   # What date format to use?
   #
